@@ -1,5 +1,5 @@
                                     "use strict"
-                             //       (function(){}())
+                             (function(){
                              var image=document.getElementsByTagName("img");
                              var images = ["images/sparkstudents.jpg","images/israel.jpg","images/david.jpg","images/memuna.jpg","images/lekan.jpg","images/chidera.jpg","images/afeez.jpg","images/stephen.jpg","images/zubair.jpg","images/tobi.jpg","images/sule.jpg","images/alex.jpg","images/olumide.jpg"];
                              var image1= image[0];
@@ -303,4 +303,4 @@
                                     favIcons[1].className="fa fa-github-square animated infinite fadeIn";
                                 };} connectIcons();
                              
-                                 
+                                 }());
